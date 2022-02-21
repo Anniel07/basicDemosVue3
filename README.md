@@ -1,5 +1,7 @@
 # demo-api
 
+Some basic demo from textBook "the majesty of vue" using Vue3
+
 ## Project setup
 ```
 npm install

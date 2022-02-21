@@ -1,4 +1,8 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import router from './router' // <---
 
-createApp(App).mount('#app')
+// importing lodash as global resource
+import 'lodash';   
+
+createApp(App).use(router).mount('#app')
